@@ -16,31 +16,11 @@
 </head>
 <body>
 <div id="contenedor">
-<div class="navbar-wrapper">
-  <div class="container">
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Tienda Online</a>
-        </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="index.php">Inicio</a></li>
-              <li><a href="#nosotros">Nosotros</a></li>
-              <li><a href="index2.php">Productos</a></li>
-              <li><a href="#contacto">Contacto</a></li>  
-            </ul>
-          </div>
-      </div>
-    </div>
-  </div>
-</div>
+
+    <?php
+		include "api/navbar.php"
+		 ?>
+  
   <div id="myCarousel" class="carousel slide " data-ride="carousel">
   <!-- Indicators -->
     <ol class="carousel-indicators">
