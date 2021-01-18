@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Nueva orden - Solucel</title>
+		<title>Nueva orden</title>
 
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
@@ -40,7 +40,7 @@
 
 		<div class="body">
 			<form id="formOrden" action="" id="sky-form" class="sky-form" />
-				<header>Orden de Servicio Técnico M
+				<header>Orden de Servicio Técnico 
 					<label class="input">
 					<input type="text" id="numorder" placeholder="Ingresar solo el Nº correspondiente de la orden manual"></label></header>
 				<fieldset>
@@ -87,11 +87,10 @@
 									<option value="0" selected="" disabled="" />Marca
 									<option value="apple" />Apple
 									<option value="samsung" />Samsung
-									<option value="motorola" />Motorola
+									<option value="toshiba" />Toshiba
 									<option value="sony" />Sony
-									<option value="lg" />LG
-                  <option value="huawei" />Huawei
-                  <option value="nokia" />Nokia
+                  					<option value="huawei" />Huawei
+                 					 <option value="hp" />Hp
 								</select>
   						</label>
             </section>
