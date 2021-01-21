@@ -75,81 +75,13 @@
 </div>
 </div> <!-- /.container -->
 
-<div id="marketing" class="container">
-  <div class="col-md-7">
-
-    <h2 class="featurette-heading">Visita nuestra tienda online <span class="text-muted">Ingresa.</span></h2>
-    <p class="lead">       </p>
-  </div> <!-- col -->
-  <div class="col-md-5">
-    <img class="featurette-image img-responsive img-circle" src="img/laptop.jpg" alt="Generic placeholder image">
-  </div> <!-- col -->
-</div> <!-- container marketing -->
-
-<hr class="featurette-divider">
 
 
 
-<div id="contacto" class="container">
-  <div class="col-md-4 visible=col-xs visible=col-sm">
-   
-  </div>
-  <div class="col-md-4 col-xs-12 col-sm-12">
-  <div class="panel-body">
-    <form action="" method="post" class="form-horizontal" role="form">
-    <div class="form-group">
-      <label  class="col-sm-4 control-label">Nombre</label>
-        <div class="col-sm-8">
-          <input type="text" class="form-control" name="nombre" placeholder="Introduce tu nombre" required="required">
-        </div>
-    </div>
-    <div class="form-group">
-        <label  class="col-sm-4 control-label">Apellidos</label>
-      <div class="col-sm-8">
-      <input type="text" class="form-control"  name="apellidos" placeholder="Introduce tus Apellidos">
-      </div>
-    </div>
-    <div class="form-group">
-        <label  class="col-sm-4 control-label">Empresa</label>
-      <div class="col-sm-8">
-        <input type="text" class="form-control" name="empresa" >
-      </div>
-    </div>
-    <div class="form-group">
-        <label  class="col-sm-4 control-label">Cargo</label>
-      <div class="col-sm-8">
-        <input type="text" class="form-control" name="cargo">
-      </div>
-    </div>
-    <div class="form-group">
-        <label  class="col-sm-4 control-label">Telefono</label>
-      <div class="col-sm-8">
-        <input type="text" class="form-control"  name="telefono" placeholder="Telefono de contacto">
-      </div>
-    </div>
-    <div class="form-group">
-        <label  class="col-sm-4 control-label">E-mail</label>
-      <div class="col-sm-8">
-        <input type="text" class="form-control" name="e-mail"  placeholder="E-mail">
-      </div>
-    </div>
-    <div class="form-group">
-        <label  class="col-sm-4 control-label">Comentarios</label>
-      <div class="col-sm-8">
-         <textarea class="form-control" placeholder="Escribeme tu comentario aquí" name="comment"></textarea><br />
-      </div>
-    </div>
-    <div class="form-group">
-        <label class="col-sm-4"></label>
-      <div class="col-sm-8">
-        <input type="submit" class="btn btn-default" value="Contactenos">
-      </div>
-    </div>
-    </form> 
-  </div>
-  </div>
-  <div class="col-md-4"></div>
-</div>
+
+
+
+
 </div>
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 
