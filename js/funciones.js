@@ -119,6 +119,7 @@ function nuevaorden(tipo) {
           "detalle" : $("#detalle").val(),
           "atendidopor" : $("#quien").val()
   };
+  
   $.ajax({
           data:  parametros,
           url:   'api/procesarorden.php',

@@ -33,8 +33,8 @@
 
     </head>
 	
-	<body id="neworderm" class="bg-blue">
-		<?php
+	<body id="neworderm" class="bg-blue" >
+	<?php
 		include "api/navbar.php"
 		 ?>
 
