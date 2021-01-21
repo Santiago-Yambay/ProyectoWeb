@@ -46,11 +46,28 @@
 				
 
 				<footer>
+					<button type="button" onclick="formOrderj" class="button">Buscar</button>
+					
+				</footer>
+			</form>
+		</div>
+
+		<div class="body" > 
+			<form id="formOrdenj" action="" id="sky-form" class="sky-form" />
+				<header>Buscar Orden de Servicio Técnico
+					<label class="input">
+					<input type="text" id="numorder" placeholder="Ingrese el Nro. de la orden generada"></label></header>
+				
+
+				<footer>
 					<button type="button" onclick="nuevaorden('manual');" class="button">Buscar</button>
 					
 				</footer>
 			</form>
 		</div>
+
+
+
 
 		<script type="text/javascript">
 			$(function()
