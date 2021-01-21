@@ -9,11 +9,11 @@
   <span class="icon-bar"></span>
   <span class="icon-bar"></span>
 </button>
-<<<<<<< HEAD
+
 <a class="navbar-brand" href="http://solucel.com.ar/app"><img src="img/logo.png"  style="width:45px; margin-top:-10px"></a>
-=======
-<a class="navbar-brand" href="index.php"><img src="http://solucel.com.ar/ml/logo.png"  style="width:45px; margin-top:-10px"></a>
->>>>>>> f6c4593e69126f26cf591a05f5aa48d04dab8efe
+
+
+
 </div>
 
 
