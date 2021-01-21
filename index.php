@@ -27,28 +27,32 @@
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-      <li data-target="#myCarousel" data-slide-to="4"></li>
-      <li data-target="#myCarousel" data-slide-to="5"></li>
+      
+
     </ol>
       <div class="carousel-inner">
-        <div class="active item"><img  src="img/logoferretaller.png"/></div>
-        <div class="item"><img  src="img/logo.fw.png" /></div>
-        <div class="item"><img  src="img/1.jpg"  /></div>
-        <div class="item"><img  src="img/2.jpg"  /></div>
+        <div class="active item"><img  src="img/2.png"/></div>
+        <div class="item"><img  src="img/1.png"  /></div>
         <div class="item"><img   src="img/3.jpg" /></div>
       </div>
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"  ></span><img src="img/fn.png" /></a>
         <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
   </div>
 <div id="nosotros">
   <div class="container">
   <div class="row-fluid">
     <div id="divisiones" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+
       <img class="img-circle" src="img/nosotros.jpg" alt="Responsive imagen">
       <h2>TEXTO</h2>
       <p>TEXTO</p>
       <p><a class="btn btn-default" href="#" role="button">Ver mas &raquo;</a></p>
+
+      <img class="img-circle" src="img/compu.png" alt="Responsive imagen">
+      <h2>COMPUTADORAS</h2>
+      <p>DE CUALQUIER MARCA</p>
+      
+
     </div><!-- /.col -->
     <div id="divisiones" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
         <img class="img-circle" src="img/experiencia.jpg" alt="Generic placeholder image">
