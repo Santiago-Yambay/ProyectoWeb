@@ -9,7 +9,7 @@
   <span class="icon-bar"></span>
   <span class="icon-bar"></span>
 </button>
-<a class="navbar-brand" href="http://solucel.com.ar/app"><img src="http://solucel.com.ar/ml/logo.png"  style="width:45px; margin-top:-10px"></a>
+<a class="navbar-brand" href="index.php"><img src="http://solucel.com.ar/ml/logo.png"  style="width:45px; margin-top:-10px"></a>
 </div>
 
 
@@ -17,7 +17,7 @@
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 <ul class="nav navbar-nav">
   <li><a href="index.php"><i class="fa fa-tv fa-fw" aria-hidden="true"></i> Inicio<span class="sr-only">(current)</span></a></li>
-  <li><a href="search.php"><i class="fa fa-search fa-fw" aria-hidden="true"></i> Ordenes</a></li>
+  <li><a href="buscar.php"><i class="fa fa-search fa-fw" aria-hidden="true"></i> Ordenes</a></li>
   <li><a href="formulario.php"><i class="fa fa-cart-plus fa-fw" aria-hidden="true"></i> Nueva Orden</a></li>
   <li><a href="recibos.php"><i class="fa fa-file-text-o fa-fw" aria-hidden="true"></i> Recibos</a></li>
   <li><a href="panel.php"><i class="fa fa-th fa-fw" aria-hidden="true"></i> Panel de control</a></li>
