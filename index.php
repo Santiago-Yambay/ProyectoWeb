@@ -46,11 +46,6 @@
         <div class="item"><img  src="img/1.png"  /></div>
         <div class="item"><img   src="img/3.jpg" /></div>
 
-        <div class="active item"><img  src="img/bg-blue.jpg"/></div>
-        <div class="item"><img  src="img/bg-blue.jpg" /></div>
-        <div class="item"><img  src="img/bg-blue.jpg"  /></div>
-        <div class="item"><img  src="img/bg-blue.jpg"  /></div>
-        <div class="item"><img   src="img/bg-blue.jpg" /></div>
 
       </div>
         <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"  ></span><img src="img/fn.png" /></a>
@@ -61,10 +56,7 @@
   <div class="row-fluid">
     <div id="divisiones" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 
-      <img class="img-circle" src="img/nosotros.jpg" alt="Responsive imagen">
-      <h2>TEXTO</h2>
-      <p>TEXTO</p>
-      <p><a class="btn btn-default" href="#" role="button">Ver mas &raquo;</a></p>
+  
 
       <img class="img-circle" src="img/compu.png" alt="Responsive imagen">
       <h2>COMPUTADORAS</h2>
@@ -72,11 +64,7 @@
       
 
     </div><!-- /.col -->
-    <div id="divisiones" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <img class="img-circle" src="img/experiencia.jpg" alt="Generic placeholder image">
-        <h2>TEXTO</h2>
-        <p>TEXTO</p>
-    </div><!-- /.col -->
+  
     <div id="divisiones" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
         <img class="img-circle" src="img/servicios.jpg" alt="Generic placeholder image">
         <h2>TEXTO</h2>
@@ -100,15 +88,7 @@
 
 <hr class="featurette-divider">
 
-<div id="marketing" class="container">
-  <div class="col-md-7">
-     <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-  </div> <!-- col -->
-  <div class="col-md-5">
-    <h2 class="featurette-heading"> Te enviamos tus productos <br> <span class="text-muted">Servicio de entrega.</span></h2>
-    <p class="lead">En nuestra tienda online tenemos nuestro propio servicio de entrega de productos, !Aprovecha! </p>
-  </div> <!-- col -->
-</div> <!-- container marketing2 -->
+
 
 <div id="contacto" class="container">
   <div class="col-md-4 visible=col-xs visible=col-sm">
