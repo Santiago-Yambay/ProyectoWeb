@@ -48,28 +48,27 @@
 
 
       </div>
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"  ></span><img src="img/fn.png" /></a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"  ><img src="img/fn1.png" /></span></a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"><img src="img/fn.png" /></span></a>
   </div>
 <div id="nosotros">
   <div class="container">
   <div class="row-fluid">
     <div id="divisiones" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-
-  
-
       <img class="img-circle" src="img/compu.png" alt="Responsive imagen">
-      <h2>COMPUTADORAS</h2>
+      <h2>REPARACION COMPUTADORAS</h2>
       <p>DE CUALQUIER MARCA</p>
-      
-
     </div><!-- /.col -->
   
     <div id="divisiones" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <img class="img-circle" src="img/servicios.jpg" alt="Generic placeholder image">
-        <h2>TEXTO</h2>
-        <p> TEXTO      </p>
-        <p><a class="btn btn-default" href="index2.php" role="button">Ver productos &raquo;</a></p>
+        <img class="img-circle" src="img/H.png" alt="Generic placeholder image">
+        <h2>MANTENIMIENTO</h2>
+        <p> LIMPIEZA</p>        
+    </div><!-- /.col -->
+    <div id="divisiones" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <img class="img-circle" src="img/CC.png" alt="Generic placeholder image">
+        <h2>MANDANOS TU ORDEN</h2>
+        <p> Y NOSOTROS TE ATENDEREMOS</p>        
     </div><!-- /.col -->
   </div><!-- /.row -->
 </div>
