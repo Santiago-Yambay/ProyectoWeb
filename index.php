@@ -46,20 +46,19 @@
   <div class="row-fluid">
     <div id="divisiones" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
       <img class="img-circle" src="img/nosotros.jpg" alt="Responsive imagen">
-      <h2>Nosotros</h2>
-      <p>Conozca mas sobre nuestra empresa,nuestros inicio, mision, vision y mas ... </p>
+      <h2>TEXTO</h2>
+      <p>TEXTO</p>
       <p><a class="btn btn-default" href="#" role="button">Ver mas &raquo;</a></p>
     </div><!-- /.col -->
     <div id="divisiones" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
         <img class="img-circle" src="img/experiencia.jpg" alt="Generic placeholder image">
-        <h2>Experiencia y Calidad</h2>
-        <p>Llevamos mas de 10 años en el departamento del Meta siendo lideres en el diseño y la construccion de estructuras a gran nivel 
-          con los mas altos estandares de calidad...</p>
+        <h2>TEXTO</h2>
+        <p>TEXTO</p>
     </div><!-- /.col -->
     <div id="divisiones" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
         <img class="img-circle" src="img/servicios.jpg" alt="Generic placeholder image">
         <h2>Productos y Servicios</h2>
-        <p>Podras encontrar la mas completa variedad de articulos para sus obras o visitarnos en nuestra tienda online para conocer nuestros productos...</p>
+        <p> TEXTO      </p>
         <p><a class="btn btn-default" href="index2.php" role="button">Ver productos &raquo;</a></p>
     </div><!-- /.col -->
   </div><!-- /.row -->
@@ -70,8 +69,7 @@
   <div class="col-md-7">
 
     <h2 class="featurette-heading">Visita nuestra tienda online <span class="text-muted">Ingresa.</span></h2>
-    <p class="lead">Encontraras gran variedad de productos con la posibilidad de comprar desde tu smartphone, tablet o computador. Rapido y Facil,
-    No nos depositas dinero, !Pagas contraentrega! </p>
+    <p class="lead">       </p>
   </div> <!-- col -->
   <div class="col-md-5">
     <img class="featurette-image img-responsive img-circle" src="img/laptop.jpg" alt="Generic placeholder image">
@@ -153,6 +151,5 @@
 </div>
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 
-<?php include"php/piedepagina.php"; ?>
 </body>
 </html>
