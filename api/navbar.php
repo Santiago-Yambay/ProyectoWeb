@@ -9,7 +9,7 @@
   <span class="icon-bar"></span>
   <span class="icon-bar"></span>
 </button>
-<a class="navbar-brand" href="http://solucel.com.ar/app"><img src="http://solucel.com.ar/ml/logo.png"  style="width:45px; margin-top:-10px"></a>
+<a class="navbar-brand" href="http://solucel.com.ar/app"><img src="img/logo.png"  style="width:45px; margin-top:-10px"></a>
 </div>
 
 
