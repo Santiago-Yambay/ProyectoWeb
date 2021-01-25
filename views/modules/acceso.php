@@ -14,7 +14,7 @@ include 'conexion.php';
             '$telefono','$correo','$marca','$modelo','$clave', '$descripcion')";
             if($mysqli->query($sqlInsert)===TRUE)
             {
-                header('Location: http://localhost/ProyectoWeb/index.php');
+                header('Location: http://localhost/PROYECTO ACS/ProyectoWeb/index.php');
                 ?>
                 <script>
                     alert("Datos Guardados Correctamente");

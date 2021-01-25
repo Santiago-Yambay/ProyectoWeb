@@ -1,3 +1,7 @@
+<?php
+
+		include "views/modules/conexion.php"
+		 ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -40,11 +44,41 @@
 		include "api/navbar.php"
 		 ?>
 
+	<?php
+
+			
+	
+
+	$query="SELECT MAX(NUM_FOR) FROM FORMULARIOS ";
+
+
+	$buscarEstudiante=$conn->query($query);
+	$result = mysqli_query($conn,$query);
+
+	if($row = mysqli_num_rows($result) > 0){
+	 while($row = mysqli_fetch_array($result)){
+
+ 	$numero= $row[0];
+	
+	}
+
+}else{
+
+  $result="No se encontraron marcas";
+  
+}
+
+
+?>
+
+
 		<div  class="body">
-			<form id="formOrden" method="POST" action="http://localhost/ProyectoWeb/views/modules/acceso.php" id="sky-form" class="sky-form">
-				<header>Orden de Servicio Técnico 
+			<form id="formOrden" method="POST" action="http://localhost/PROYECTO ACS/ProyectoWeb/views/modules/acceso.php" id="sky-form" class="sky-form">
+				<header>Orden de Servicio Técnico Nro:
 					<label class="input">
-					<input type="text" id="NUM_FOR" placeholder="Ingresar solo el Nº correspondiente de la orden manual"></label></header>
+
+					<input type="text" id="NUM_FOR" placeholder="<?php echo $numero + 1 ?>"></label></header>
+
 				<fieldset>
 					<div class="row">
 						<section class="col col-6">

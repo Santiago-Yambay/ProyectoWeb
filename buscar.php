@@ -1,3 +1,9 @@
+<?php
+
+include "views/modules/conexion.php";
+
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -32,40 +38,101 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     </head>
+
 	
 	<body id="neworderm" class="bg-blue">
+
+
+
+
 		<?php
 		include "api/navbar.php"
 		 ?>
 
+
+
+		<?php
+
+			$numero="";
+			$nombre="";
+			$apellido="";
+			$telefono="";
+			$correo="";
+			$marca= "";
+			$modelo="";
+			$des="";
+			
+			$NUM_FOR = $_POST['NUM_FOR'];
+
+
+			$query="SELECT * FROM FORMULARIOS WHERE NUM_FOR='$NUM_FOR'";
+
+
+			$buscarEstudiante=$conn->query($query);
+			$result = mysqli_query($conn,$query);
+
+			if($row = mysqli_num_rows($result) > 0){
+ 			while($row = mysqli_fetch_array($result)){
+
+			 $numero= $row[0];
+			 $nombre= $row[1];
+			 $apellido= $row[2];
+			 $telefono= $row[3];
+			 $correo= $row[4];
+			 $marca= $row[5];
+			 $modelo= $row[6];
+			 $des= $row[9];
+			 
+				}
+
+			}else{
+
+			  $result="No se encontraron marcas";
+			  
+			}
+
+
+		?>
+
 		<div class="body">
-			<form id="formOrden" action="" id="sky-form" class="sky-form" />
+
+		<form id="formBuscar" method="post" novalidate  action="" class="sky-form">
 				<header>Buscar Orden de Servicio Técnico
 					<label class="input">
-					<input type="text" id="numorder" placeholder="Ingrese el Nro. de la orden generada"></label></header>
+					<input id="NUM_FOR" name="NUM_FOR"  required="true" placeholder="Ingrese el Nro. de la orden generada" style="width:100%" >
+					
+
+					</label>
+
+					
+					
+					
+					</header>
 				
 
 				<footer>
-					<button type="button" onclick="formOrderj" class="button">Buscar</button>
 					
-				</footer>
-			</form>
-		</div>
+					<input type="submit" name="buscar" class="button" value="buscar" style="width:90px">	
 
-		<div class="body" > 
-			<form id="formOrdenj" action="" id="sky-form" class="sky-form" />
-				<header>Buscar Orden de Servicio Técnico
-					<label class="input">
-					<input type="text" id="numorder" placeholder="Ingrese el Nro. de la orden generada"></label></header>
+
+
+            		<div><input name="text" label="APELLIDO: " class="sky-form" value="<?php echo $numero ?>" ></div>
+           			<div><input name="text" class="sky-form" value="<?php echo $nombre ?>"></div>
+            		<div><input name="text" class="sky-form" value="<?php echo $apellido ?>"></div>
+            		<div> <input name="text" class="sky-form" value="<?php echo $telefono ?>"></div>
+           			<div><input name="text" class="sky-form" value="<?php echo $correo ?>"></div>
+           			<div> <input name="text" class="sky-form" value="<?php echo $marca ?>"></div>
+					<div> <input name="text" class="sky-form" value="<?php echo $modelo ?>"></div>
+					<div> <input name="text" class="sky-form" value="<?php echo $des ?>"></div>
+            
+				</footer>
+
 				
 
-				<footer>
-					<button type="button" onclick="nuevaorden('manual');" class="button">Buscar</button>
-					
-				</footer>
 			</form>
 		</div>
 
+	
 
 
 
