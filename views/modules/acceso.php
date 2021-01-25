@@ -14,7 +14,12 @@ include 'conexion.php';
             '$telefono','$correo','$marca','$modelo','$clave', '$descripcion')";
             if($mysqli->query($sqlInsert)===TRUE)
             {
-            echo "Datos Guardados Correctamente<br><a href='../../Formulario.php'>Volver</a>";
+                header('Location: http://localhost/ProyectoWeb/index.php');
+                ?>
+                <script>
+                    alert("Datos Guardados Correctamente");
+                </script>
+            <?php
             }
             else
             {
